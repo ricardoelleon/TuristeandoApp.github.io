@@ -1,52 +1,206 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2822
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red220\green229\blue239;\red123\green143\blue171;\red247\green249\blue250;
-\red87\green194\blue193;\red224\green203\blue103;\red129\green201\blue99;}
-{\*\expandedcolortbl;;\cssrgb\c89020\c91765\c94902;\cssrgb\c55294\c63137\c72549;\cssrgb\c97647\c98039\c98431;
-\cssrgb\c40000\c80000\c80000;\cssrgb\c90196\c82745\c47843;\cssrgb\c56863\c81569\c46275;}
+{\colortbl;\red255\green255\blue255;\red220\green229\blue239;}
+{\*\expandedcolortbl;;\cssrgb\c89020\c91765\c94902;}
 \paperw12240\paperh20160\margl1440\margr1440\vieww26700\viewh13440\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs26 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 <!\cf3 \strokec3 DOCTYPE html\cf2 \strokec2 >\cf4 \strokec4 \
-\pard\pardeftab720\partightenfactor0
-\cf5 \strokec5 <html>\cf4 \strokec4 \
-\cf5 \strokec5 <head>\cf4 \strokec4 \
-    \cf5 \strokec5 <title>\cf4 \strokec4 Mis Enlaces\cf5 \strokec5 </title>\cf4 \strokec4 \
-    \cf5 \strokec5 <style>\cf4 \strokec4 \
-        body \{ \
-            font-family: Arial, sans-serif; \
-            text-align: center; \
-            padding: 40px; \
-            background: #f5f5f5;\
+\outl0\strokewidth0 \strokec2 <!DOCTYPE html>\
+<html>\
+<head>\
+    <title>Descarga Turisteando App</title>\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <style>\
+        body \{\
+            font-family: Arial, sans-serif;\
+            text-align: center;\
+            padding: 50px 20px;\
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);\
+            color: white;\
+            min-height: 100vh;\
         \}\
-        .link \{ \
-            display: block; \
-            background: #007bff; \
-            color: white; \
-            padding: 15px; \
-            margin: 15px auto; \
-            border-radius: 10px; \
+        .container \{\
+            max-width: 500px;\
+            margin: 0 auto;\
+            background: rgba(255,255,255,0.1);\
+            padding: 30px;\
+            border-radius: 20px;\
+            backdrop-filter: blur(10px);\
+            border: 1px solid rgba(255,255,255,0.2);\
+        \}\
+        .logo \{\
+            font-size: 60px;\
+            margin-bottom: 20px;\
+        \}\
+        .app-name \{\
+            font-size: 28px;\
+            font-weight: bold;\
+            margin-bottom: 10px;\
+        \}\
+        .app-description \{\
+            margin-bottom: 30px;\
+            opacity: 0.9;\
+        \}\
+        .btn \{\
+            display: flex;\
+            align-items: center;\
+            justify-content: center;\
+            background: white;\
+            color: #333;\
+            padding: 18px 30px;\
+            margin: 15px auto;\
+            border-radius: 50px;\
             text-decoration: none;\
-            width: 80%;\
-            max-width: 300px;\
+            font-weight: bold;\
             font-size: 18px;\
+            width: 90%;\
+            max-width: 350px;\
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);\
+            transition: all 0.3s;\
         \}\
-        .link:hover \{\
-            background: #0056b3;\
+        .btn:hover \{\
+            transform: translateY(-3px);\
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);\
         \}\
-    \cf5 \strokec5 </style>\cf4 \strokec4 \
-\cf5 \strokec5 </head>\cf4 \strokec4 \
-\cf5 \strokec5 <body>\cf4 \strokec4 \
-    \cf5 \strokec5 <h1>\cf4 \strokec4 \uc0\u55357 \u56561  Mis Enlaces Importantes\cf5 \strokec5 </h1>\cf4 \strokec4 \
-    \cf5 \strokec5 <p>\cf4 \strokec4 Escanea el c\'f3digo QR para acceder a:\cf5 \strokec5 </p>\cf4 \strokec4 \
-    \
-    \cf3 \strokec3 <!-- REEMPLAZA ESTOS ENLACES CON LOS TUYOS -->\cf4 \strokec4 \
-    \cf5 \strokec5 <a \cf6 \strokec6 class\cf5 \strokec5 ="\cf7 \strokec7 link\cf5 \strokec5 " \cf6 \strokec6 href\cf5 \strokec5 ="\cf7 \strokec7 https://play.google.com/store/apps/details?id=com.companyname.turisteandoapp&pcampaignid=web_share\cf5 \strokec5 ">\cf4 \strokec4 Google Play\cf5 \strokec5 </a>\cf4 \strokec4 \
-    \cf5 \strokec5 <a \cf6 \strokec6 class\cf5 \strokec5 ="\cf7 \strokec7 link\cf5 \strokec5 " \cf6 \strokec6 href\cf5 \strokec5 ="{\field{\*\fldinst{HYPERLINK "https://apps.apple.com/co/app/turisteandoapp/id6755491951"}}{\fldrslt \cf7 \strokec7 https://apps.apple.com/co/app/turisteandoapp/id6755491951}}">\cf4 \strokec4 Apple Store\cf5 \strokec5 </a>\cf4 \strokec4 \
-    \
-    \cf3 \strokec3 <!-- A\'d1ADE M\'c1S ENLACES SI NECESITAS -->\cf4 \strokec4 \
-\cf5 \strokec5 </body>\cf4 \strokec4 \
-\cf5 \strokec5 </html>\cf4 \strokec4 \
-}
+        .store-icon \{\
+            margin-right: 15px;\
+            font-size: 28px;\
+        \}\
+        .android-btn \{\
+            background: linear-gradient(to right, #4285F4, #34A853);\
+            color: white;\
+        \}\
+        .ios-btn \{\
+            background: linear-gradient(to right, #000000, #333333);\
+            color: white;\
+        \}\
+        .loading \{\
+            margin: 30px 0;\
+            font-size: 16px;\
+        \}\
+        .spinner \{\
+            border: 4px solid rgba(255,255,255,0.3);\
+            border-top: 4px solid white;\
+            border-radius: 50%;\
+            width: 40px;\
+            height: 40px;\
+            animation: spin 1s linear infinite;\
+            margin: 20px auto;\
+        \}\
+        @keyframes spin \{\
+            0% \{ transform: rotate(0deg); \}\
+            100% \{ transform: rotate(360deg); \}\
+        \}\
+        .footer \{\
+            margin-top: 30px;\
+            font-size: 14px;\
+            opacity: 0.7;\
+        \}\
+    </style>\
+</head>\
+<body>\
+    <div class="container">\
+        <div class="logo">\uc0\u55356 \u57310 \u65039 </div>\
+        <div class="app-name">Turisteando App</div>\
+        <div class="app-description">Tu gu\'eda tur\'edstica perfecta para explorar nuevos lugares</div>\
+        \
+        <div class="loading">\
+            <div class="spinner"></div>\
+            <p id="status">Detectando tu dispositivo...</p>\
+        </div>\
+        \
+        <!-- Botones manuales -->\
+        <a href="https://play.google.com/store/apps/details?id=com.companyname.turisteandoapp" \
+           class="btn android-btn" \
+           id="android-btn">\
+            <span class="store-icon">\uc0\u55358 \u56598 </span> Descargar en Google Play\
+        </a>\
+        \
+        <a href="https://apps.apple.com/co/app/turisteandoapp/id6755491951" \
+           class="btn ios-btn" \
+           id="ios-btn">\
+            <span class="store-icon">\uc0\u55356 \u57166 </span> Descargar en App Store\
+        </a>\
+        \
+        <div class="footer">\
+            Si no se redirige autom\'e1ticamente, haz clic en el bot\'f3n de tu dispositivo\
+        </div>\
+    </div>\
+\
+    <script>\
+        // Detectar dispositivo y redirigir AUTOM\'c1TICAMENTE\
+        function detectDeviceAndRedirect() \{\
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;\
+            const status = document.getElementById('status');\
+            \
+            // Detectar Android\
+            if (/android/i.test(userAgent)) \{\
+                status.innerHTML = "\uc0\u9989  Android detectado. Redirigiendo a Google Play...";\
+                \
+                // Ocultar bot\'f3n iOS inmediatamente\
+                document.getElementById('ios-btn').style.display = 'none';\
+                \
+                // Redirigir despu\'e9s de 2 segundos (para que el usuario vea el mensaje)\
+                setTimeout(function() \{\
+                    window.location.href = "https://play.google.com/store/apps/details?id=com.companyname.turisteandoapp";\
+                \}, 2000);\
+                \
+                return 'android';\
+            \}\
+            \
+            // Detectar iOS (iPhone, iPad, iPod)\
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) \{\
+                status.innerHTML = "\uc0\u9989  iOS detectado. Redirigiendo a App Store...";\
+                \
+                // Ocultar bot\'f3n Android inmediatamente\
+                document.getElementById('android-btn').style.display = 'none';\
+                \
+                // Redirigir despu\'e9s de 2 segundos\
+                setTimeout(function() \{\
+                    window.location.href = "https://apps.apple.com/co/app/turisteandoapp/id6755491951";\
+                \}, 2000);\
+                \
+                return 'ios';\
+            \}\
+            \
+            // Si no es m\'f3vil, mostrar ambos botones\
+            status.innerHTML = "\uc0\u55357 \u56507  Usa uno de los botones seg\'fan tu dispositivo:";\
+            document.querySelector('.spinner').style.display = 'none';\
+            return 'desktop';\
+        \}\
+        \
+        // Ejecutar al cargar la p\'e1gina\
+        document.addEventListener('DOMContentLoaded', function() \{\
+            // Esperar 1 segundo antes de detectar (para animaci\'f3n)\
+            setTimeout(function() \{\
+                detectDeviceAndRedirect();\
+            \}, 1000);\
+            \
+            // Ocultar loading despu\'e9s de 5 segundos si sigue cargando\
+            setTimeout(function() \{\
+                document.querySelector('.spinner').style.display = 'none';\
+            \}, 5000);\
+        \});\
+        \
+        // Para probar desde computadora: simular dispositivo\
+        // Quita el comentario de las siguientes l\'edneas para probar:\
+        /*\
+        function simularAndroid() \{\
+            document.getElementById('status').innerHTML = "Prueba Android activada";\
+            setTimeout(function() \{\
+                window.location.href = "https://play.google.com/store/apps/details?id=com.companyname.turisteandoapp";\
+            \}, 1000);\
+        \}\
+        \
+        function simularIOS() \{\
+            document.getElementById('status').innerHTML = "Prueba iOS activada";\
+            setTimeout(function() \{\
+                window.location.href = "https://apps.apple.com/co/app/turisteandoapp/id6755491951";\
+            \}, 1000);\
+        \}\
+        */\
+    </script>\
+</body>\
+</html>}
